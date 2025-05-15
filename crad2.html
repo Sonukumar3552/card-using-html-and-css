@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crad2</title>
+    <style>
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(43, 50, 179);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 400px;
+            height: 650px;
+            background-color: aliceblue;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .card img{
+            width: 400px;
+            height: 200px;
+            border-top-left-radius: 30px ;
+            border-top-right-radius: 30px;
+        }
+        .textbox{
+            text-align: center;
+            font-size: large;
+            margin: 30px;
+        }
+        .Annual img{
+            width: 40px;
+            height: 40px;
+            margin: 17px;
+        }
+        .Annual{
+            height: 75px;
+            width: 340px;
+            background-color: rgb(123, 164, 205);
+            border-radius: 10px;
+            display: flex;
+            gap: 10px;
+        }
+        .leftbox{
+            display: flex;
+            gap: 10px;
+
+        }
+        .rightbox{
+            margin: 10px;
+            padding: 10px;
+            font-size: 30px;
+        }
+        /*.paymentButton{
+            width: 80%;
+            height: 9%;
+            background-color: blue;
+            color: wheat;
+            border-radius: 10px;
+            margin: 30px;        
+        } */
+        .paymentButton button{
+            width: 102%;
+            height: 85%;
+            background-color: #020336; /* green */
+            color: white;
+            font-size: 32px;
+            padding: 20px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 10px 20px rgb(15, 6, 140);
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="card">
+        <img src="image.png" alt="">
+        <div class="textbox">
+            <h2>Order Summary</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum saepe eum impedit culpa odio. Accusamus odio asperiores praesentium facilis veritatis!</p>
+        </div>  
+        <div class="Annual">
+            <div class="leftbox"><img src="musiclogo.jpg" alt="">
+                <h3>Amount<br>&#36;99.9/year</h3></div>
+           <div class="rightbox">
+               <a href="#">change</a>
+           </div> 
+           
+        </div> 
+        <br>
+        <div class="paymentButton"> 
+            <button>Proceed to Payment</button>
+        </div>
+          <div class="Cancel">
+            <h3>Cancel Order </h3>
+          </div>
+
+      </div>
+    </div>
+</body>
+</html>
